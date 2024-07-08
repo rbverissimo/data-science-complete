@@ -1,0 +1,9 @@
+Definitions of factorial: 
+
+(n + k)! = n! x (n + 1) x (n + 2) x ... x (m + k)
+(n - k)! = n! / (n - k + 1) x ... x (n - k + k) which simplifies to n
+
+Meaning of the difference of factorials:
+
+(5 - 3)! = 5!  / (5 - 3 + 1) x (5 - 3 + 2) x (5 - 3 + 3) 
+=  5! / 3 x 4 x 5 = 5x4x3x2x1 / 3x4x5 = 2x1 = 2
