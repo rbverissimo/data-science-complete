@@ -9,6 +9,10 @@ Meaning of the difference of factorials:
 =  5! / 3 x 4 x 5 = 5x4x3x2x1 / 3x4x5 = 2x1 = 2
 
 
+Permutations:
+
+p of 5 positions = 5!
+
 Variations with reps:
 
 Variations are different from permutations. Permutation is an ordered arrangement of all or some objects in a given set. The order in which the objects are arranged matters.
@@ -30,3 +34,30 @@ v(7, 4) = 7! / (7 - 4)! = 7! / 3! = 7x5x6x4x3! / 3! = 120 x 7 = 840
 
 5 cake flavours in 3 different tiers of the cake, the flavours can't be repeated
 v(5, 3) = 5! / 2!
+
+
+Combinations: the number of different ways we can pick certain elements of a set.
+
+All the different permutations of single combination are different variations
+
+the number of combinations are the number of variations divided by its permutations 
+
+c of n elements in p positions is equal the v of n elements in p positions divided by the p of p positions 
+
+c(n,p) = v(n,p) / p(p)
+
+c(n,p) = (n! / (n - p)!) / p! = n! / (n - p)! x 1/p! = n! / p!(n - p)!
+
+
+Combine 3 different maroons of the 8 we have at your disposal. 
+It can't be a variation problem because: strawberry, chocolate and vanilla are the same as chocolate, vanilla and strawberry
+Let's first go in the permutations
+
+P of p = 3!
+V(n, p) = (8, 3) = 8! / 5! =  8!/3!5! = 8x6x7 / 3x2 = 8x7 = 56
+
+P of p = 8!
+V(8,8) = 8! / 0! 
+c = 8! / 8!x1 = 1
+
+
