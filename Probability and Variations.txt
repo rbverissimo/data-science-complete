@@ -7,3 +7,26 @@ Meaning of the difference of factorials:
 
 (5 - 3)! = 5!  / (5 - 3 + 1) x (5 - 3 + 2) x (5 - 3 + 3) 
 =  5! / 3 x 4 x 5 = 5x4x3x2x1 / 3x4x5 = 2x1 = 2
+
+
+Variations with reps:
+
+Variations are different from permutations. Permutation is an ordered arrangement of all or some objects in a given set. The order in which the objects are arranged matters.
+In permutations, repetition isn't allowed. While in variations, repetition is allowed. 
+
+v of n elements in p positions = n elements to the power of the p positions 
+4 letter words with A,B,C = 3 elements to the power of 4 positions = 3^4 (81 variations)
+
+
+Variations without reps:
+
+v of n elements in positions without repeating an element = n! / (n - p)! 
+
+v(n, p) = n! / (n - p)!
+
+7 teams members for 4 positions.
+
+v(7, 4) = 7! / (7 - 4)! = 7! / 3! = 7x5x6x4x3! / 3! = 120 x 7 = 840
+
+5 cake flavours in 3 different tiers of the cake, the flavours can't be repeated
+v(5, 3) = 5! / 2!
