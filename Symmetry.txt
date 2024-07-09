@@ -1,0 +1,19 @@
+C (n , p) = C(n, n - p)
+
+as reads, the combination of n elements taken in p positions is equal to the combination of n elements taken in n elements - p positions 
+
+as in:
+
+C(10, 8) = C(10, 10 - 8) = C(10, 2)
+
+Combinations with different sample spaces
+
+Assuming I went to a restaurant that serves a three course meal,
+
+There are 5 options for the main, 12 for the antepasto and 2 after lunch.
+
+If I went to the restaurant every day, in how many days would I have eat every possible three course meal combination?
+
+5 different main x 12 antepastos x 2 after lunch
+
+10x12 = 120 that would take a total of 120 days or 24 weeks considering 5-day weeks
